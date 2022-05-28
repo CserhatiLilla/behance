@@ -1,0 +1,263 @@
+html {
+  scroll-behavior: smooth;
+  max-width: 100%;
+  min-height: 310vh;
+}
+
+html body {
+  background-color: #222323;
+  font-family: 'Roboto', sans-serif;
+}
+
+html body .body-wrapper .body-innerwrapper header {
+  background-color: #222323;
+  z-index: 99;
+}
+
+html body .body-wrapper .body-innerwrapper header .header-container #menubar {
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+}
+
+html body .body-wrapper .body-innerwrapper header .header-container #menubar #menulist {
+  list-style-type: none;
+  position: absolute;
+  top: 36px;
+  left: 419px;
+  font-size: 12px;
+  padding: 0;
+  overflow: hidden;
+}
+
+html body .body-wrapper .body-innerwrapper header .header-container #menubar #menulist .menuitem {
+  float: left;
+}
+
+html body .body-wrapper .body-innerwrapper header .header-container #menubar #menulist .menuitem .button {
+  text-align: center;
+  display: block;
+  padding: 13px;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
+
+html body .body-wrapper .body-innerwrapper header .header-container #menubar #menulist .menuitem .button:hover {
+  color: #e36b4d;
+  font-size: 500;
+}
+
+html body .body-wrapper .body-innerwrapper header .header-container #ikon {
+  position: absolute;
+  top: 41px;
+  right: 202px;
+  height: 28px;
+}
+
+html body .body-wrapper .body-innerwrapper #first #back {
+  position: relative;
+  text-align: center;
+  margin-top: 380px;
+  font-weight: 700;
+  font-size: 270px;
+  -webkit-text-fill-color: #222323;
+  -webkit-text-stroke: 1px #2f2f2f;
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+  z-index: -1;
+}
+
+html body .body-wrapper .body-innerwrapper #first #Im {
+  position: relative;
+  margin-top: -395px;
+  margin-left: 190px;
+  font-weight: 700;
+  font-size: 70px;
+  letter-spacing: 0.02em;
+  color: #474747;
+  line-height: 0.9;
+}
+
+html body .body-wrapper .body-innerwrapper #first #graphic {
+  position: relative;
+  margin-left: 190px;
+  font-weight: 700;
+  font-size: 95px;
+  letter-spacing: 0.08em;
+  color: #fff;
+  line-height: 0.9;
+}
+
+html body .body-wrapper .body-innerwrapper #first #dot {
+  margin-top: -30px;
+  margin-left: 710px;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-color: #e36b4d;
+}
+
+html body .body-wrapper .body-innerwrapper #first #contact {
+  position: relative;
+  margin-left: 195px;
+  margin-top: 26px;
+  width: 115px;
+  height: 25px;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  color: #fff;
+  background-color: #e36b4d;
+}
+
+html body .body-wrapper .body-innerwrapper #secound {
+  color: #fff;
+}
+
+html body .body-wrapper .body-innerwrapper #secound .background {
+  margin-top: 230px;
+  width: 100%;
+  height: 140vh;
+  background-color: #1d1e1e;
+}
+
+html body .body-wrapper .body-innerwrapper #secound .background .title-back {
+  position: relative;
+  text-align: center;
+  top: 60px;
+  font-size: 130px;
+  letter-spacing: 0.08em;
+  color: #222323;
+}
+
+html body .body-wrapper .body-innerwrapper #secound .background .title {
+  text-align: center;
+  position: relative;
+  margin-top: -40px;
+  font-size: 55px;
+  letter-spacing: 0.08em;
+  color: #e36b4d;
+}
+
+html body .body-wrapper .body-innerwrapper #secound .background #border {
+  position: relative;
+  top: 93px;
+  left: 222px;
+  width: 345px;
+  height: 432px;
+  border: solid 7px #e36b4d;
+  border-radius: 3px;
+}
+
+html body .body-wrapper .body-innerwrapper #secound .background #profil {
+  position: relative;
+  margin-top: -379px;
+  margin-left: 184px;
+  height: 442px;
+}
+
+html body .body-wrapper .body-innerwrapper #secound .background .row {
+  position: relative;
+  top: -444px;
+  left: 607px;
+  letter-spacing: 0.08em;
+  font-weight: 400;
+  font-size: 19px;
+}
+
+html body .body-wrapper .body-innerwrapper #secound .background .row span {
+  color: #e36b4d;
+}
+
+html body .body-wrapper .body-innerwrapper #secound .background .introduction #art {
+  height: 130px;
+  width: 461px;
+  text-align: left;
+  position: absolute;
+  top: 1083px;
+  left: 608px;
+  font-size: 13px;
+  line-height: 2;
+  cursor: default;
+}
+
+html body .body-wrapper .body-innerwrapper #secound .background .name {
+  position: relative;
+  left: 568px;
+  top: -242px;
+  text-align: center;
+  width: 200px;
+  font-size: 15px;
+  line-height: 1.2;
+  color: #e36b4d;
+}
+
+html body .body-wrapper .body-innerwrapper #secound .background .name span {
+  font-size: 18px;
+  color: #fff;
+}
+
+html body .body-wrapper .body-innerwrapper #secound .background .country {
+  position: relative;
+  left: 571px;
+  top: -208px;
+  text-align: center;
+  width: 200px;
+  font-size: 15px;
+  line-height: 1.2;
+  color: #e36b4d;
+}
+
+html body .body-wrapper .body-innerwrapper #secound .background .country span {
+  font-size: 14px;
+  color: #fff;
+}
+
+html body .body-wrapper .body-innerwrapper #secound .background .phone {
+  position: relative;
+  left: 853px;
+  top: -317px;
+  text-align: center;
+  width: 200px;
+  font-size: 15px;
+  line-height: 1.2;
+  color: #e36b4d;
+}
+
+html body .body-wrapper .body-innerwrapper #secound .background .phone span {
+  font-size: 14px;
+  color: #fff;
+}
+
+html body .body-wrapper .body-innerwrapper #secound .background .email {
+  position: relative;
+  left: 855px;
+  top: -285px;
+  text-align: center;
+  width: 200px;
+  font-size: 15px;
+  line-height: 1.2;
+  color: #e36b4d;
+}
+
+html body .body-wrapper .body-innerwrapper #secound .background .email span {
+  font-size: 14px;
+  color: #fff;
+}
+
+html body .body-wrapper .body-innerwrapper #secound .background .education {
+  position: relative;
+  left: 626px;
+  top: -230px;
+  text-align: center;
+  width: 360px;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #e36b4d;
+}
+
+html body .body-wrapper .body-innerwrapper #secound .background .education span {
+  font-size: 18px;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
