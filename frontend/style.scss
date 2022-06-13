@@ -1,7 +1,7 @@
 html{
     scroll-behavior: smooth;
     max-width: 100%;
-    min-height: 310vh;
+    min-height: 400vh;
 
     body{
         background-color: #222323;
@@ -120,7 +120,7 @@ html{
                     }
                 }
 
-        // secound box
+                // secound box
 
                 #secound{
                     color: #fff;
@@ -256,9 +256,77 @@ html{
                                 color: #fff;    
                             }
                         }
+                        .ikons{
+                            position: relative;
+                            width: 200px;
+                            display: flex;
+                            justify-content: space-between;
+                            left: 710px;
+                            margin-top: -172px;
+                            #glob{
+                                width: 30px;
+                                height: 30px;
+                                color: #fff;
+                                border: solid 1px;
+                            }
+                            #face{
+                                width: 30px;
+                                height: 30px;
+                                color: #fff;
+                                border: solid 1px;
+                            }
+                            #twit{
+                                width: 30px;
+                                height: 30px;
+                                color: #fff;
+                                border: solid 1px;
+                            }
+                            #pint{
+                                width: 30px;
+                                height: 30px;
+                                color: #fff;
+                                border: solid 1px;
+                            }
+                            #insta{
+                                width: 30px;
+                                height: 30px;
+                                color: #fff;
+                                border: solid 1px;
+                            }
+                        }
                         
                     }
                 }
+                // third box 
+                #third{
+                    .title-back{
+                        position: relative;
+                        text-align: center;
+                        top: 60px;
+                        font-size: 130px;
+                        letter-spacing: 0.08em;
+                        color: rgb(45, 45, 45);
+                    }
+                    .title{
+                        text-align: center;
+                        position: relative;
+                        margin-top: -40px;
+                        font-size: 55px;
+                        letter-spacing: 0.08em;
+                        color:  rgb(227, 107, 77);
+                    }
+                    #know{
+                        height: 360px;
+                        margin-top: 30px;
+                    }
+                    #available{
+                        margin-top: 50px;
+                        text-align: center;
+                        font-weight: 700;
+                        font-size: 30pt;
+                        color: #fff;
+                    }
+                }      
             }
         }
     }
